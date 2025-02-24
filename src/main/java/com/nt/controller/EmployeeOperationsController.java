@@ -107,4 +107,9 @@ public class EmployeeOperationsController {
 		return "redirect:report";
 	}
 
+	@GetMapping("/test")
+	public String test(){
+		return "test";
+	}
+
 }
